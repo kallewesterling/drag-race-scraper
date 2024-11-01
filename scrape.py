@@ -26,6 +26,7 @@ PAGES = [
     "RuPaul's Drag Race (season 13)",
     "RuPaul's Drag Race (season 14)",
     "RuPaul's Drag Race (season 15)",
+    "RuPaul's Drag Race (season 16)",
     "RuPaul's Drag Race All Stars (season 1)",
     "RuPaul's Drag Race All Stars (season 2)",
     "RuPaul's Drag Race All Stars (season 3)",
@@ -34,30 +35,49 @@ PAGES = [
     "RuPaul's Drag Race All Stars (season 6)",
     "RuPaul's Drag Race All Stars (season 7)",
     "RuPaul's Drag Race All Stars (season 8)",
+    "RuPaul's Drag Race All Stars (season 9)",
     "RuPaul's Drag Race UK (series 1)",
     "RuPaul's Drag Race UK (series 2)",
     "RuPaul's Drag Race UK (series 3)",
     "RuPaul's Drag Race UK (series 4)",
+    "RuPaul's Drag Race UK (series 5)",
+    "RuPaul's Drag Race UK (series 6)",
     "RuPaul's Drag Race Down Under (season 1)",
     "RuPaul's Drag Race Down Under (season 2)",
-    "RuPaul's Drag Race: UK vs the World",
+    "RuPaul's Drag Race Down Under (season 3)",
+    "RuPaul's Drag Race: UK vs. the World",
+    "RuPaul's Drag Race: UK vs. the World series 2",
     # "The Switch Drag Race (season 1)", # Chile
     # "The Switch Drag Race (season 2)", # Chile
     "Drag Race Thailand (season 1)",  # Thailand
     "Drag Race Thailand (season 2)",  # Thailand
+    "Drag Race Thailand (season 3)",  # Thailand
     "Canada's Drag Race (season 1)",  # Canada
     "Canada's Drag Race (season 2)",  # Canada
     "Canada's Drag Race (season 3)",  # Canada
+    "Canada's Drag Race (season 4)",  # Canada
     "Drag Race Holland (season 1)",  # Netherlands
     "Drag Race Holland (season 2)",  # Netherlands
     "Drag Race España (season 1)",  # Spain
     "Drag Race España (season 2)",  # Spain
     "Drag Race España (season 3)",  # Spain
+    "Drag Race España (season 4)",  # Spain
     "Drag Race Italia (season 1)",  # Italy
     "Drag Race Italia (season 2)",  # Italy
+    "Drag Race Italia (season 3)",  # Italy
     "Drag Race France (season 1)",  # France
-    "Drag Race Belgique",  # Belgium
+    "Drag Race France (season 2)",  # France
+    "Drag Race France (season 3)",  # France
+    "Drag Race Belgique (season 1)",  # Belgium
+    "Drag Race Belgique (season 2)",  # Belgium
+    "Drag Race Philippines season 1", # Philippines
+    "Drag Race Philippines season 2", # Philippines
+    "Drag Race Philippines season 3", # Philippines
+    "Drag Race México season 1", # Mexico
+    "Drag Race México season 2", # Mexico
+    "Drag Race Brasil season 1", # Brazil
     "Drag Race Sverige",  # Sweden
+    "Drag Race Germany", # Germany
 ]
 
 # Download pages
