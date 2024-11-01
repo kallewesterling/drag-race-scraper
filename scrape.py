@@ -56,6 +56,8 @@ PAGES = [
     "Canada's Drag Race (season 2)",  # Canada
     "Canada's Drag Race (season 3)",  # Canada
     "Canada's Drag Race (season 4)",  # Canada
+    "Canada's Drag Race: Canada vs. the World season 1", # Canada v. the World
+    "Canada's Drag Race: Canada vs. the World season 2", # Canada v. the World
     "Drag Race Holland (season 1)",  # Netherlands
     "Drag Race Holland (season 2)",  # Netherlands
     "Drag Race España (season 1)",  # Spain
@@ -78,6 +80,7 @@ PAGES = [
     "Drag Race Brasil season 1", # Brazil
     "Drag Race Sverige",  # Sweden
     "Drag Race Germany", # Germany
+    "RuPaul's Drag Race Global All Stars", # Global All Stars
 ]
 
 # Download pages
