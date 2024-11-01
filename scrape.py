@@ -92,7 +92,7 @@ for page in PAGES:
     text = get_html_cache(page).read_text()
     sections = text.split('<h2 id="')
 
-    contestants = None
+    contestants = pd.DataFrame()
     contestant_progress = None
     episodes = []
     ratings = None
@@ -127,9 +127,12 @@ for page in PAGES:
                     for k, v in infobox.items()
                 }
 
-                infobox["release_dates"] = re.findall(
-                    r"\d{4}-\d{2}-\d{2}", infobox["Original release"]
-                )
+                try:
+                    infobox["release_dates"] = re.findall(
+                        r"\d{4}-\d{2}-\d{2}", infobox["Original release"]
+                    )
+                except KeyError:
+                    infobox["release_dates"] = []
             continue
 
         end = section.find('">')
