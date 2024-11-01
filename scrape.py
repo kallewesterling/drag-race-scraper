@@ -102,7 +102,7 @@ for page in PAGES:
     for ix, section in enumerate(sections):
         if ix == 0:
             print(f"[INFO] Processing first section for {page}")
-            soup = BeautifulSoup(section)
+            soup = BeautifulSoup(section, "lxml")
             if soup.find("table", {"class": "infobox"}):
                 infobox_elem = soup.find("table", {"class": "infobox"})
                 infobox = dict(
@@ -135,7 +135,7 @@ for page in PAGES:
         end = section.find('">')
         section_title = section[0:end]
 
-        soup = BeautifulSoup(section)
+        soup = BeautifulSoup(section, "lxml")
         has_table = soup.find("table", {"class": "wikitable"})
         if not has_table:
             skip_cols = ["references", "external_links", "see_also"]
@@ -314,7 +314,7 @@ for page in PAGES:
             lst = [lst[n : n + 2] for n in range(0, len(lst), 2)]
 
             for x in lst:
-                soup = BeautifulSoup(str(x[0]) + str(x[1]))
+                soup = BeautifulSoup(str(x[0]) + str(x[1]), "lxml")
                 content = soup.find_all("th") + soup.find_all("td")
 
                 if len(content) == len(categories) + 1:
