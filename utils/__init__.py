@@ -46,7 +46,8 @@ def download_pages(pages):
     for page in pages:
         html_cache = get_html_cache(page)
         if not html_cache.exists() or (html_cache.exists() and expired(html_cache)):
-            url = f"https://api.wikimedia.org/core/v1/wikipedia/en/page/{page}/html"
+            page_url = page.replace("'", "%27").replace(" ", "_").replace("(", "").replace(")", "")
+            url = f"https://api.wikimedia.org/core/v1/wikipedia/en/page/{page_url}/html"
 
             headers = {
                 "Authorization": f"Bearer {ACCESS_TOKEN}",
