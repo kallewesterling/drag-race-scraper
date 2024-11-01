@@ -55,8 +55,12 @@ def download_pages(pages):
             }
 
             response = requests.get(url, headers=headers)
-            text = response.text
-            html_cache.write_text(text)
+
+            if response.status_code == 200:
+                text = response.text
+                html_cache.write_text(text)
+            else:
+                print(f"Could not download page {page} ({page_url})", response.status_code)
 
 
 def strip_from_wiki_refs(text):
